@@ -1,0 +1,10 @@
+-------------------------------------------------------------------------------
+Test set: myapp.MyAppTest
+-------------------------------------------------------------------------------
+Tests run: 6, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 1.999 sec <<< FAILURE! - in myapp.MyAppTest
+testViaRestUsingHttpClient(myapp.MyAppTest)  Time elapsed: 0.063 sec  <<< FAILURE!
+org.junit.ComparisonFailure: expected:<{"id":12[4]}> but was:<{"id":12[3]}>
+	at org.junit.Assert.assertEquals(Assert.java:115)
+	at org.junit.Assert.assertEquals(Assert.java:144)
+	at myapp.MyAppTest.testViaRestUsingHttpClient(MyAppTest.java:81)
+
